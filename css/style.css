@@ -1,7 +1,7 @@
-.col-1{
+[class*="col-"]{
   border: 1px solid black;
-  height: 100px;
-  line-height: 100px;
+  height: 200px;
+  line-height: 200px;
 }
 .col-11{
   background-color: green;
