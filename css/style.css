@@ -9,12 +9,9 @@
   line-height: 200px;
 }
 .nested{
-  margin: 1px;
+  width: 100%;
   background-color: purple;
 }
-.col-2 .nested{
-  width: calc[((100% / 12) *2 )- 4px]
-}
-.col-8 .nested{
-  width: calc[((100% / 12) *8 )- 4px]
-}
+.debug [col*="col-"]{
+  padding:2px;
+ }
