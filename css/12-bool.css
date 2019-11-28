@@ -7,7 +7,13 @@
   background-color: red;
 }
 .container{
-  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
   height: 300px;
   border: 1px solid purple;
+}
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
 }
