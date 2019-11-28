@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /*rebug*/
-.rebug{
+.debug{
   background-color: pink;
 }
 /*container*/
@@ -95,4 +95,13 @@
 /*typo*/
 .text-aligne-center{
   text-align: center;
+}
+.button{
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius:5px;
+  padding: 10px 30px;
+  color: black;
+  text-transform: uppercase;
 }
